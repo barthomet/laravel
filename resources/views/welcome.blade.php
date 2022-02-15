@@ -23,8 +23,11 @@
     <body class="antialiased">
         <h1>MIAU</h1>
         <a href="/products">Compre agora</a>
-           @if (10 > 5)
-              <p>a condição é true</p>
-           @endif
+        @if (10 > 5)
+           <p>a condição é true</p>
+        @endif
+
+        <p>{{$nome}}</p>
+
     </body>
 </html>
